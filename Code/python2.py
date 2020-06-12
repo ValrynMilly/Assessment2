@@ -75,11 +75,11 @@ def two(input):
 	# What happens if you multiply a string by a number?
 
 def three(a):
-    inp0 = int( "%s" % a)
-    inp1 = int( "%s%s" % (a,a) )
-    inp2 = int( "%s%s%s" % (a,a,a) )
-    inp3 = int( "%s%s%s%s" % (a,a,a,a) )
-    sum = int(inp0) + int(inp1) + int(inp2) + int(inp3)
+    num0 = int( "%s" % a)
+    num1 = int( "%s%s" % (a,a) )
+    num2 = int( "%s%s%s" % (a,a,a) )
+    num3 = int( "%s%s%s%s" % (a,a,a,a) )
+    sum = int(num0) + int(num1) + int(num2) + int(num3)
 
     return sum
 	# <QUESTION 4>
